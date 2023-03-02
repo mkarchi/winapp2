@@ -8,7 +8,7 @@ RUN dotnet restore
 
 # Copy everything else
 COPY . .
-
+#new comment 
 # Build and publish a release
 RUN dotnet publish -c Release -o out
 
